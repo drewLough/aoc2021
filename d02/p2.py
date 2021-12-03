@@ -17,8 +17,8 @@ def readInput():
 def calcNav(commands):
     horizontal, depth, aim = 0, 0, 0
     for c in commands:
-        direction = c[0]
-        amount = c[1]
+        direction = int(c[0])
+        amount = int(c[1])
         if direction == "forward":
             horizontal += amount
             depth += amount * aim
