@@ -23,5 +23,4 @@ f = open("input.txt", "r")
 input = f.read().splitlines()
 f.close
 
-print(readSums(input))
 print(countIncreases(readSums(input)))
